@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A27ED3E22DCF36000E29BDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A27ED3D22DCF36000E29BDF /* AppDelegate.swift */; };
+		9A27ED4022DCF36000E29BDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A27ED3F22DCF36000E29BDF /* ViewController.swift */; };
+		9A27ED4322DCF36000E29BDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A27ED4122DCF36000E29BDF /* Main.storyboard */; };
+		9A27ED4622DCF36000E29BDF /* guardaPalabras.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9A27ED4422DCF36000E29BDF /* guardaPalabras.xcdatamodeld */; };
+		9A27ED4822DCF36400E29BDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A27ED4722DCF36400E29BDF /* Assets.xcassets */; };
+		9A27ED4B22DCF36400E29BDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A27ED4922DCF36400E29BDF /* LaunchScreen.storyboard */; };
+		9A27ED5622DCF36400E29BDF /* guardaPalabrasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A27ED5522DCF36400E29BDF /* guardaPalabrasTests.swift */; };
+		9A27ED6122DCF36400E29BDF /* guardaPalabrasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A27ED6022DCF36400E29BDF /* guardaPalabrasUITests.swift */; };
+		9A27ED6F22DCF55900E29BDF /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A27ED6E22DCF55900E29BDF /* TableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A27ED5222DCF36400E29BDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A27ED3222DCF36000E29BDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A27ED3922DCF36000E29BDF;
+			remoteInfo = guardaPalabras;
+		};
+		9A27ED5D22DCF36400E29BDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A27ED3222DCF36000E29BDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A27ED3922DCF36000E29BDF;
+			remoteInfo = guardaPalabras;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A27ED3A22DCF36000E29BDF /* guardaPalabras.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = guardaPalabras.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A27ED3D22DCF36000E29BDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9A27ED3F22DCF36000E29BDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9A27ED4222DCF36000E29BDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A27ED4522DCF36000E29BDF /* guardaPalabras.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = guardaPalabras.xcdatamodel; sourceTree = "<group>"; };
+		9A27ED4722DCF36400E29BDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A27ED4A22DCF36400E29BDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A27ED4C22DCF36400E29BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A27ED5122DCF36400E29BDF /* guardaPalabrasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = guardaPalabrasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A27ED5522DCF36400E29BDF /* guardaPalabrasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guardaPalabrasTests.swift; sourceTree = "<group>"; };
+		9A27ED5722DCF36400E29BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A27ED5C22DCF36400E29BDF /* guardaPalabrasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = guardaPalabrasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A27ED6022DCF36400E29BDF /* guardaPalabrasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guardaPalabrasUITests.swift; sourceTree = "<group>"; };
+		9A27ED6222DCF36400E29BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A27ED6E22DCF55900E29BDF /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A27ED3722DCF36000E29BDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A27ED4E22DCF36400E29BDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A27ED5922DCF36400E29BDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A27ED3122DCF36000E29BDF = {
+			isa = PBXGroup;
+			children = (
+				9A27ED3C22DCF36000E29BDF /* guardaPalabras */,
+				9A27ED5422DCF36400E29BDF /* guardaPalabrasTests */,
+				9A27ED5F22DCF36400E29BDF /* guardaPalabrasUITests */,
+				9A27ED3B22DCF36000E29BDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A27ED3B22DCF36000E29BDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A27ED3A22DCF36000E29BDF /* guardaPalabras.app */,
+				9A27ED5122DCF36400E29BDF /* guardaPalabrasTests.xctest */,
+				9A27ED5C22DCF36400E29BDF /* guardaPalabrasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A27ED3C22DCF36000E29BDF /* guardaPalabras */ = {
+			isa = PBXGroup;
+			children = (
+				9A27ED3D22DCF36000E29BDF /* AppDelegate.swift */,
+				9A27ED3F22DCF36000E29BDF /* ViewController.swift */,
+				9A27ED6E22DCF55900E29BDF /* TableViewController.swift */,
+				9A27ED4122DCF36000E29BDF /* Main.storyboard */,
+				9A27ED4722DCF36400E29BDF /* Assets.xcassets */,
+				9A27ED4922DCF36400E29BDF /* LaunchScreen.storyboard */,
+				9A27ED4C22DCF36400E29BDF /* Info.plist */,
+				9A27ED4422DCF36000E29BDF /* guardaPalabras.xcdatamodeld */,
+			);
+			path = guardaPalabras;
+			sourceTree = "<group>";
+		};
+		9A27ED5422DCF36400E29BDF /* guardaPalabrasTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A27ED5522DCF36400E29BDF /* guardaPalabrasTests.swift */,
+				9A27ED5722DCF36400E29BDF /* Info.plist */,
+			);
+			path = guardaPalabrasTests;
+			sourceTree = "<group>";
+		};
+		9A27ED5F22DCF36400E29BDF /* guardaPalabrasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A27ED6022DCF36400E29BDF /* guardaPalabrasUITests.swift */,
+				9A27ED6222DCF36400E29BDF /* Info.plist */,
+			);
+			path = guardaPalabrasUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A27ED3922DCF36000E29BDF /* guardaPalabras */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A27ED6522DCF36400E29BDF /* Build configuration list for PBXNativeTarget "guardaPalabras" */;
+			buildPhases = (
+				9A27ED3622DCF36000E29BDF /* Sources */,
+				9A27ED3722DCF36000E29BDF /* Frameworks */,
+				9A27ED3822DCF36000E29BDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = guardaPalabras;
+			productName = guardaPalabras;
+			productReference = 9A27ED3A22DCF36000E29BDF /* guardaPalabras.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A27ED5022DCF36400E29BDF /* guardaPalabrasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A27ED6822DCF36400E29BDF /* Build configuration list for PBXNativeTarget "guardaPalabrasTests" */;
+			buildPhases = (
+				9A27ED4D22DCF36400E29BDF /* Sources */,
+				9A27ED4E22DCF36400E29BDF /* Frameworks */,
+				9A27ED4F22DCF36400E29BDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A27ED5322DCF36400E29BDF /* PBXTargetDependency */,
+			);
+			name = guardaPalabrasTests;
+			productName = guardaPalabrasTests;
+			productReference = 9A27ED5122DCF36400E29BDF /* guardaPalabrasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A27ED5B22DCF36400E29BDF /* guardaPalabrasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A27ED6B22DCF36400E29BDF /* Build configuration list for PBXNativeTarget "guardaPalabrasUITests" */;
+			buildPhases = (
+				9A27ED5822DCF36400E29BDF /* Sources */,
+				9A27ED5922DCF36400E29BDF /* Frameworks */,
+				9A27ED5A22DCF36400E29BDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A27ED5E22DCF36400E29BDF /* PBXTargetDependency */,
+			);
+			name = guardaPalabrasUITests;
+			productName = guardaPalabrasUITests;
+			productReference = 9A27ED5C22DCF36400E29BDF /* guardaPalabrasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A27ED3222DCF36000E29BDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Edison Effect";
+				TargetAttributes = {
+					9A27ED3922DCF36000E29BDF = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					9A27ED5022DCF36400E29BDF = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 9A27ED3922DCF36000E29BDF;
+					};
+					9A27ED5B22DCF36400E29BDF = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 9A27ED3922DCF36000E29BDF;
+					};
+				};
+			};
+			buildConfigurationList = 9A27ED3522DCF36000E29BDF /* Build configuration list for PBXProject "guardaPalabras" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A27ED3122DCF36000E29BDF;
+			productRefGroup = 9A27ED3B22DCF36000E29BDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A27ED3922DCF36000E29BDF /* guardaPalabras */,
+				9A27ED5022DCF36400E29BDF /* guardaPalabrasTests */,
+				9A27ED5B22DCF36400E29BDF /* guardaPalabrasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A27ED3822DCF36000E29BDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A27ED4B22DCF36400E29BDF /* LaunchScreen.storyboard in Resources */,
+				9A27ED4822DCF36400E29BDF /* Assets.xcassets in Resources */,
+				9A27ED4322DCF36000E29BDF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A27ED4F22DCF36400E29BDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A27ED5A22DCF36400E29BDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A27ED3622DCF36000E29BDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A27ED4022DCF36000E29BDF /* ViewController.swift in Sources */,
+				9A27ED4622DCF36000E29BDF /* guardaPalabras.xcdatamodeld in Sources */,
+				9A27ED3E22DCF36000E29BDF /* AppDelegate.swift in Sources */,
+				9A27ED6F22DCF55900E29BDF /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A27ED4D22DCF36400E29BDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A27ED5622DCF36400E29BDF /* guardaPalabrasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A27ED5822DCF36400E29BDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A27ED6122DCF36400E29BDF /* guardaPalabrasUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A27ED5322DCF36400E29BDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A27ED3922DCF36000E29BDF /* guardaPalabras */;
+			targetProxy = 9A27ED5222DCF36400E29BDF /* PBXContainerItemProxy */;
+		};
+		9A27ED5E22DCF36400E29BDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A27ED3922DCF36000E29BDF /* guardaPalabras */;
+			targetProxy = 9A27ED5D22DCF36400E29BDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A27ED4122DCF36000E29BDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A27ED4222DCF36000E29BDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A27ED4922DCF36400E29BDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A27ED4A22DCF36400E29BDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A27ED6322DCF36400E29BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A27ED6422DCF36400E29BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A27ED6622DCF36400E29BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VAW5LY4HJ;
+				INFOPLIST_FILE = guardaPalabras/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.edisoneffect.guardaPalabras;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A27ED6722DCF36400E29BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VAW5LY4HJ;
+				INFOPLIST_FILE = guardaPalabras/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.edisoneffect.guardaPalabras;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9A27ED6922DCF36400E29BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VAW5LY4HJ;
+				INFOPLIST_FILE = guardaPalabrasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.edisoneffect.guardaPalabrasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/guardaPalabras.app/guardaPalabras";
+			};
+			name = Debug;
+		};
+		9A27ED6A22DCF36400E29BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VAW5LY4HJ;
+				INFOPLIST_FILE = guardaPalabrasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.edisoneffect.guardaPalabrasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/guardaPalabras.app/guardaPalabras";
+			};
+			name = Release;
+		};
+		9A27ED6C22DCF36400E29BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VAW5LY4HJ;
+				INFOPLIST_FILE = guardaPalabrasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.edisoneffect.guardaPalabrasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = guardaPalabras;
+			};
+			name = Debug;
+		};
+		9A27ED6D22DCF36400E29BDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VAW5LY4HJ;
+				INFOPLIST_FILE = guardaPalabrasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.edisoneffect.guardaPalabrasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = guardaPalabras;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A27ED3522DCF36000E29BDF /* Build configuration list for PBXProject "guardaPalabras" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A27ED6322DCF36400E29BDF /* Debug */,
+				9A27ED6422DCF36400E29BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A27ED6522DCF36400E29BDF /* Build configuration list for PBXNativeTarget "guardaPalabras" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A27ED6622DCF36400E29BDF /* Debug */,
+				9A27ED6722DCF36400E29BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A27ED6822DCF36400E29BDF /* Build configuration list for PBXNativeTarget "guardaPalabrasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A27ED6922DCF36400E29BDF /* Debug */,
+				9A27ED6A22DCF36400E29BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A27ED6B22DCF36400E29BDF /* Build configuration list for PBXNativeTarget "guardaPalabrasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A27ED6C22DCF36400E29BDF /* Debug */,
+				9A27ED6D22DCF36400E29BDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9A27ED4422DCF36000E29BDF /* guardaPalabras.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9A27ED4522DCF36000E29BDF /* guardaPalabras.xcdatamodel */,
+			);
+			currentVersion = 9A27ED4522DCF36000E29BDF /* guardaPalabras.xcdatamodel */;
+			path = guardaPalabras.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9A27ED3222DCF36000E29BDF /* Project object */;
+}
